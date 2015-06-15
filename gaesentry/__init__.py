@@ -5,7 +5,7 @@ from raven.conf import setup_logging
 import logging
 
 
-GAESENTRY_SENTRY_DSN = ''  # get this from getsentry
+GAESENTRY_SENTRY_DSN = ''  # get this from getsentry. Use the "sync+https://" prefix, and not "https://".
 
 
 def add_sentry_to_logging():
