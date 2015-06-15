@@ -11,7 +11,7 @@ https://github.com/albertpadin/raven-python
 ## Installation Instructions
 
 1. Download gaesentry and include it in your appengine project.
-2. Download and include the above modified raven-python directory in your appengine project.
+2. Download and include the modified raven-python directory in your appengine project.
 3. Add the following lines to `appengine_config.py`:
 
 ```
