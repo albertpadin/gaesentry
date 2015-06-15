@@ -18,7 +18,7 @@ https://github.com/albertpadin/raven-python
 def webapp_add_wsgi_middleware(app):
 
     import gaesentry
-    gaesentry.add_sentry_to_logging()
+    gaesentry.add_sentry_to_logging(dsn="ENTER YOUR GETSENTRY DSN HERE")
     
     return app
 ```
@@ -27,5 +27,5 @@ If you already have a `webapp_add_wsgi_middleware` method, then simply insert th
 
 ```
 import gaesentry
-gaesentry.add_sentry_to_logging()
+gaesentry.add_sentry_to_logging(dsn="ENTER YOUR GETSENTRY DSN HERE")
 ```
